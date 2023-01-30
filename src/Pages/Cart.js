@@ -32,7 +32,7 @@ const Cart = () => {
                   return <tr key={items.product.id}>
                     <td>{i+1}</td>
                     <td>
-                      <img src={items.product.item_image} style={{height: "120px"}}/>
+                      <img src={items.product.item_image} style={{height: "120px"}} alt="img.." />
                     </td>
                     <td>
                       <h4>{items.product.item_name}</h4>
