@@ -22,7 +22,7 @@ const Card = ({ item }) => {
         <div className="col">
         <ToastContainer theme='colored' position='top-right'></ToastContainer>
         <div className="card p-3 m-2" style={{height:"370px"}}>
-            <img src={item.item_image} className="card-img-top p-3" height="300px" alt="..."/>
+            <img src={item.item_image} className="card-img-top p-3" height="270px" alt={item.item_image}/>
 
             <div className="card-body">
                 <h5 className="card-title">{item.item_name}</h5>
