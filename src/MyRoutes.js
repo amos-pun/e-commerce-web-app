@@ -6,15 +6,18 @@ import Home from './Pages/Home'
 
 const MyRoutes = () => {
   return (
-    <HashRouter>
-      <Routes>
+    <React.StrictMode>
+      <HashRouter>
+        <Routes>
 
-        <Route path='/' element={<Home/>}/>
-        <Route path='/cart' element={<Cart/>}/>
-        <Route path='/aboutus' element={<AboutUs/>}/>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/cart' element={<Cart/>}/>
+          <Route path='/aboutus' element={<AboutUs/>}/>
 
-      </Routes>
-    </HashRouter>
+        </Routes>
+      </HashRouter>
+    </React.StrictMode>
+   
   )
 }
 

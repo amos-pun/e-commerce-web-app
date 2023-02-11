@@ -31,7 +31,7 @@ const App = () => {
     <div>
       <Provider  store={myStore}>
         <PersistGate persistor={myPersistor}>
-          <MyRoutes/>
+          <MyRoutes />
         
         </PersistGate>
       </Provider>
