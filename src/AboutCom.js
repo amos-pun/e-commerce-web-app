@@ -1,7 +1,7 @@
 export const Users = [
     {
-        "id" : 1,
-        "name" : "Amos"
+        id : 1,
+        name : "Amos"
     },
     {
         "id" : 2,
